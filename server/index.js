@@ -4,6 +4,7 @@ const bodyParser = require("body-parser")
 const cors = require("cors")
 const mongoose = require("mongoose")
 const dotenv = require("dotenv")
+const morgan = require("morgan")
 const postRoute = require("./routes/post.js")
 
 dotenv.config();
